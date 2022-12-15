@@ -1,3 +1,9 @@
+//Angelo Tolentino
+//@a-tol
+//12/15/2022
+//Advent of Code submissions
+//Day 1 Puzzle 2
+
 package day1;
 
 import java.util.Scanner;

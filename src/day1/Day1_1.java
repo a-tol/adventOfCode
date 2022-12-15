@@ -1,7 +1,12 @@
+//Angelo Tolentino
+//@a-tol
+//12/15/2022
+//Advent of Code submissions
+//Day 1 Puzzle 1
+
 package day1;
 
 import java.util.Scanner;
-import java.util.LinkedList;
 import java.util.Stack;
 import java.io.File;
 import java.io.FileNotFoundException;
