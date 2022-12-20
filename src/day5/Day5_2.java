@@ -1,3 +1,9 @@
+//Angelo Tolentino
+//@a-tol
+//12/20/2022
+//Advent of Code submissions
+//Day 5 Puzzle 2
+
 package day5;
 import java.util.Scanner;
 import java.util.Stack;
@@ -23,7 +29,7 @@ public class Day5_2 {
 		//maximum height of crate stack is 8
 		//every letter is in the 4th character
 		Stack<String> horizontalLines = new Stack<String>();
-		scan.useDelimiter("\\n");
+		scan.useDelimiter("[\\n\\r]");
 		for(int i = 0; i < 8; i++) 
 			horizontalLines.push(scan.next());
 		
