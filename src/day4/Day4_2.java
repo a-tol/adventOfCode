@@ -40,7 +40,7 @@ public class Day4_2 {
 		Stack<String> pairs = new Stack<String>();
 		
 		//read each pairing and add to a stack
-		scan.useDelimiter("\n");
+		scan.useDelimiter("[\\n\\r]");
 		
 		while(scan.hasNext()) {
 			pairs.push(scan.next());
