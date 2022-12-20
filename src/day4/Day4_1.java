@@ -69,6 +69,7 @@ public class Day4_1 {
 		}
 		
 		System.out.println(count);
+		scan.close();
 		
 	}
 
