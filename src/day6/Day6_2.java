@@ -31,9 +31,7 @@ public class Day6_2 {
 		}
 		
 		//get the datastream
-		//boolean that tracks if the substring contains a duplicate letter
 		String input = scan.next();
-		boolean containsSimilar = true;
 		
 		//bounds of 4-letter substring
 		int left = 0;
@@ -60,6 +58,7 @@ public class Day6_2 {
 
 	}
 	
+	//boolean method that checks if there is a duplicate letter
 	static boolean containsSimilar(String seq) {
 		//for loop that reads a substring and
 		//checks for a duplicate letter
